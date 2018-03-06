@@ -1,0 +1,10 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: antiquewhite;
+}
+
+.container {
+    padding: 20px 10% 20px 10%;
+}
+
