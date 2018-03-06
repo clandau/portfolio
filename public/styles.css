@@ -9,6 +9,10 @@ h2 em {
     font-style: normal;
 }
 
+li :visited {
+    color: #737373;
+}
+
 .container-fluid {
     width: 60%;
     min-height: 100%;
