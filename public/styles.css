@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background-color: #faf5ff;
+    background-color: #666666;
 }
 
 h2 em {
@@ -24,7 +24,8 @@ li :hover {
 .container-fluid {
     width: 60%;
     min-height: 100%;
-   height: 100%;
+    height: 100%;
+    background-color: #faf5ff;
 }
 
 .container {
@@ -38,4 +39,5 @@ li :hover {
     right: 5px;
     bottom: 0;
     font-size: 12px;
+    color : #faf5ff;
 }
