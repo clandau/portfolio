@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #faf5ff;
 }
 
@@ -9,8 +9,16 @@ h2 em {
     font-style: normal;
 }
 
+a:link {
+    color: black;
+}
+
 li :visited {
     color: #737373;
+}
+
+li :hover {
+    color: #b32400;
 }
 
 .container-fluid {
