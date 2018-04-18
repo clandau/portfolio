@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background-color: #666666;
+    background-color: #e6ecf0;
 }
 
 h2 em {
@@ -19,13 +19,14 @@ li :visited {
 
 li :hover {
     color: #b32400;
+    text-decoration: none;
 }
 
 .container-fluid {
-    width: 60%;
+    max-width: 800px;
     min-height: 100%;
     height: 100%;
-    background-color: #faf5ff;
+    background-color: #e6ecf0;
 }
 
 .container {
