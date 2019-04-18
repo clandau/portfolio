@@ -15,6 +15,7 @@ a:link {
 
 li :visited {
     color: #737373;
+    color: rgb(79, 143, 143);
 }
 
 li :hover {
