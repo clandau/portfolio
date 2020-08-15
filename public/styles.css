@@ -52,7 +52,10 @@ li :hover {
     color : #faf5ff;
 }
 
-.subheader {
+.subheader-color{
     background-color:#deeded;
-    padding: 10px;
+}
+
+.border {
+    color: #bfbfbf,
 }
