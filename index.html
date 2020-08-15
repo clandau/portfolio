@@ -6,23 +6,34 @@
     <title>The Portfolio of Courtney Landau</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="public/favicon-angle-right.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="public/styles.css" />
 </head>
 
 <body>
 <div class = 'container-fluid'>
     <div class='container' id='intro'>
-        <h2>Portfolio of <em>Courtney Landau</em></h2><br>
-        <p>Masters in Information Systems, May 2019, with a focus on software and database development and health care information technology including data analytics. Developer, medical imaging health care worker, runner, lifelong learner. </p>
+        <h1>Portfolio of <em>Courtney Landau</em></h1>
+        <div id="summary" class="p-2">
+            <h3 class="font-2">Experienced software developer.<br> Masters in Information Systems, May 2019. <br>AWS Certified. <br> Runner, lifelong learner. </h3>
+        </div>
+    </div>
+        <div class="container" id="skills">
+        <h2 class="subheader"><span class="subheader-color">Languages and Skills</span></h2>
+        <p>Node.JS, TypeScript, TypeScript, Vue.JS, Google Cloud Platform, AWS, HTML, Pug, CSS, Java, C#, SQL, MySQL, R, Git, VS Code</p>
         
-        <h3>Languages and Skills </h3>
-        <p>Node.JS, JavaScript, TypeScript, Java, C++, HTML, Pug, CSS, C#, SQL, MySQL, R, Git, Bash terminal, Visual Studio, VS Code, Eclipse, Excel, RStudio, Tableau</p>
+    </div>
+    <div class="container" id="work">
+        <h2 class="subheader"><span class="subheader-color">Experience</span></h2>
+        <h3>Software Developer at Learnics</h3>
+        <ul class="projects">
+            <li>Develop, scale and maintain a full-stack web application and Chrome web extension using Vue.JS, TypeScript, JavaScript, Node.JS, HTML, CSS, Google Firebase and Google Cloud Functions.</li>
+        </ul>
     </div>
     <div class = 'container' id='projects'>
-        <h3>Projects</h3>
-        <h4>Node.JS, Express, MySQL</h4>
+        <h2 class="subheader"><span class="subheader-color">Projects</span></h2>
+        <h3>Node.JS, Express, MySQL</h3>
             <ul class='projects'>
                 <li><p>
                     Designed and implemented a relational database using MySQL for a local business 
@@ -31,13 +42,13 @@
                     Developed a Node.JS web application for server-side rendering and client-side interactions with the data which allows for complex queries to the database
                 </p></li>
             </ul>
-        <h4>TypeScript, Node.JS, Koa, MySQL</h4>
+        <h3>TypeScript, Node.JS, Koa, MySQL</h3>
         <ul class='projects'>
             <li><p>
                 <a href="https://github.com/clandau/tsFlashCards">Flash card application</a>
             </li>
         </ul>
-        <h4>Node.JS, Express, MongoDB microservices</h4>
+        <h3>Node.JS, Express, MongoDB microservices</h3>
         <ul class='projects'>
             <li><p>
                 <a href="http://exercisetracker.celandau.com">Exercise tracker API</a>
@@ -55,7 +66,7 @@
                 <p><a href='http://reqheader.celandau.com'>Request Header Parser Microservice</a></p>
             </li>
         </ul>
-        <h4>JavaScript, HTML and CSS</h4>
+        <h3>JavaScript, HTML and CSS</h3>
         <ul class='projects'>
             <li>
             <p><a href="http://wikipediasearch.celandau.com">Wikipedia Search</a></p>
@@ -63,18 +74,18 @@
         </ul>
         </div>
     <div class='container' id='contact'>
-        <h3>Contact</h3>
+        <h2 class="subheader"><span class="subheader-color">Contact</span></h2>
         <ul class='contact'></ul>
             <li><a href="mailto:courtney@celandau.com">Email</a></li>
             <li><a href="https://github.com/clandau">Github</a></li>
             <br>
         </ul>
-</div>
+    </div>
 </div>
 <div class="footer">
     <p style="text-align:left;">Created by <a href="mailto:courtney@celandau.com">Courtney Landau</a>
-        <span style="float:right;">2018</span>
-        </p>
+        <span style="float:right;">2020</span>
+    </p>
 </div>
 </body>
 </html>
